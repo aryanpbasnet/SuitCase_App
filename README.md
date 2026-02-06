@@ -1,4 +1,5 @@
 SuitCase App
+
 The SuitCase app is designed to help users efficiently manage their holiday shopping list. It simplifies the process of creating, editing, and organizing items needed for holidays. Below are the key functionalities of the SuitCase app.
 
 Features
