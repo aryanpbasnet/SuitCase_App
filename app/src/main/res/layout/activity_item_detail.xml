@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dusk"
+    android:orientation="vertical"
+    tools:context=".ItemDetail">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_detail"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="@drawable/shape"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Item"
+        android:textAllCaps="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/shareBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share Item"
+        android:textAllCaps="false"
+        android:layout_below="@id/editBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageDetail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/itemDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageDetail"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/priceDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:layout_toEndOf="@+id/itemDetail"
+        android:layout_below="@+id/imageDetail"
+        android:layout_marginStart="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/descriptionDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@+id/itemDetail"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_marginStart="45dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>
